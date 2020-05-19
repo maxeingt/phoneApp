@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    >
+
+    <TextView
+        android:id="@+id/persona_nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/persona_telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="18sp"
+        android:textColor="#F7F8F8"
+        android:drawableTint="#F8F5F5"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_phone"
+
+        />
+</LinearLayout>
